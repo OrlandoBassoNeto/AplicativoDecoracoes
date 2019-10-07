@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppDecoracao"
+             x:Class="AppDecoracao.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout BackgroundColor="#274FB5">
+                <Entry x:Name="entryPesquisar"
+                   Placeholder="Pesquisar"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+
+                <Image Source="Lupinha"
+                       WidthRequest="28" 
+                       Margin="-20, -32, -230, 0"/>
+
+                <Image Source="Usuario"
+                       WidthRequest="28"
+                       Margin="-35, -34, -340, 0  "/>
+
+                <Image Source="Logo"            
+                       WidthRequest="70"
+                       Margin="-300, -66, 13, 0"
+                       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+            
+
+                <Image Source="PersianaR"
+                       Margin="45, 20, 55, 65"
+                       x:Name="PersianaVertical"/>
+
+                <Label x:Name="LabelPersianaVertical"
+                       Text="Persiana Roamana Cor: Bambu "
+                       TextColor="White"
+                       FontSize="Medium"
+                       BackgroundColor="#274FB5"
+                       HorizontalOptions="Center"
+                       Margin="84, -65, 92 ,0"/>
+
+                <Image Source="F"
+                       Margin="45, 20, 25, -89 "
+                       x:Name="Forropvc"/>
+
+                <Label x:Name="LabelForrobranco"
+                       Text="Forro Pvc Branco de 25cm"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Margin="90, 97, 117, 0 "
+                       BackgroundColor="#274FB5"/>
+
+            <Image Source="Divisoria"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

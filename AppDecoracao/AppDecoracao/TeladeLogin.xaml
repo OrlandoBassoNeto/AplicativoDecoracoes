@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDecoracao.TeladeLogin">
+        
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+                <Label Text="Login"
+                   TextColor="#274FB5"
+                   HorizontalOptions="Center"
+                   Margin="0,40,0,0"
+                   FontSize="30"/>
+            
+                <Entry x:Name="entryUsuario" 
+                   Placeholder="Nome do Usuário:"
+                   PlaceholderColor="#274FB5"
+                   TextColor="#274FB5"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,70,0,0"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Entry x:Name="entrySenha" 
+                   Placeholder="Senha do Usuário:"
+                    PlaceholderColor="#274FB5"
+                   TextColor="#274FB5"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,30,0,0"
+                   IsPassword="True"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout Orientation="Horizontal">
+                    
+                <Button x:Name="buttonLimpar"
+                    Text="Limpar"
+                    BackgroundColor="#274FB5"
+                    TextColor="White"    
+                    BorderRadius="8"
+                    WidthRequest="78"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="25,25,25,0"
+                    Clicked="ButtonLimpar_Clicked"/>
+
+                <Button x:Name="buttonLogar"
+                    Text="Entrar"
+                    BackgroundColor="#274FB5"
+                    TextColor="White"    
+                    BorderRadius="8"
+                    WidthRequest="78"    
+                    HorizontalOptions="FillAndExpand"
+                    Margin="45,25,25,0"
+                    Clicked="ButtonLogar_Clicked"
+                        />
+
+            </StackLayout>
+
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
