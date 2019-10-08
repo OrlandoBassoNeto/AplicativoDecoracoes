@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDecoracao.CadastroUsuarios"
+             BackgroundImage="Plano">
+             
+                
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Label x:Name="labelCadastrodeusuarios"
+                   Text="Tela de Cadastro de Usuários"
+                   TextColor="#274FB5"
+                  FontSize="18"
+                   HorizontalTextAlignment="Center"
+                   Margin="25"/>
+
+            <Label x:Name="labelNomeCompleto"
+                   TextColor="#274FB5"
+                   Text="Digite o Nome:"
+                   HorizontalTextAlignment="Start"
+                   Margin="10, 40, 50, 0"
+                   FontSize="18"/>
+
+            <Entry x:Name="entryNome" 
+                   Placeholder="so para saber"
+                   PlaceholderColor="#274FB5"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Small"
+                   Margin="10,0,10,0"
+                   BackgroundColor="#274FB5"
+                   HorizontalOptions="Fill"/>
+
+            <Label x:Name="labelNomeUsuario"
+                   TextColor="#274FB5"
+                   Text="Digite o Nome do Usuário:"
+                   FontSize="18"
+                   HorizontalTextAlignment="Start"
+                   Margin="10, 0, 70, 2 "/>
+
+            <Entry x:Name="entryNomeusuario" 
+                   PlaceholderColor="#274FB5"
+                   TextColor="#274FB5"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Fill"
+                   FontSize="Small"
+                   Margin="10,0,10,0"
+                   BackgroundColor="#274FB5"/>
+
+            <Label x:Name="labelSenha"
+                   TextColor="#274FB5"
+                   Text="Digite a sua Senha:"
+                   FontSize="18"
+                   HorizontalTextAlignment="Start"
+                   Margin="10,0,0,0 "/>
+            
+            <Entry x:Name="entrySenha" 
+                   PlaceholderColor="#274FB5"
+                   TextColor="#274FB5"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Fill"
+                   FontSize="Small"
+                   Margin="10,0,10,0"
+                   BackgroundColor="#274FB5"/>
+
+            <Label x:Name="labelConfirmarSenha"
+                   TextColor="#274FB5"
+                   Text="Confirmar Senha:"
+                   FontSize="18"
+                   HorizontalTextAlignment="Start"
+                   Margin="10,0,0,0 "/>
+
+            <Entry x:Name="entryConfirmarSenha" 
+                   PlaceholderColor="#274FB5"
+                   TextColor="#274FB5"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Fill"
+                   FontSize="Small"
+                   Margin="10,0,10,0"
+                   BackgroundColor="#274FB5" />
+
+            <Button x:Name="buttonConfirmar"
+                    Text="Confirmar"
+                    HorizontalOptions="Start"
+                    Margin="10, 25, 15, 1"
+                    FontSize="Large"
+                    BackgroundColor="#274FB5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,28 +8,30 @@
         <StackLayout BackgroundColor="White">
 
             <StackLayout BackgroundColor="#274FB5">
+
                 <Entry x:Name="entryPesquisar"
                    Placeholder="Pesquisar"
                    HorizontalOptions="Center"
-                   TextColor="Black"/>
-
-                <Image Source="Lupinha"
-                       WidthRequest="28" 
-                       Margin="-20, -32, -230, 0"/>
-
-                <Image Source="Usuario"
-                       WidthRequest="28"
-                       Margin="-35, -34, -340, 0  "/>
+                   TextColor="Black"
+                   Margin="0, 0, 0, 0 "/>
 
                 <Image Source="Logo"            
                        WidthRequest="70"
-                       Margin="-300, -66, 13, 0"
+                       Margin="0, 0, 300, 0"
                        HorizontalOptions="CenterAndExpand"/>
+
+                <Image Source="Usuario"
+                       WidthRequest="28"
+                       Margin="0, 0, 0, 0  "/>
+
+
+                <Image Source="Lupinha"
+                       WidthRequest="28" 
+                       Margin="0, 0, 0, 0"/>
             </StackLayout>
 
             <!--ssss-->
             
-
                 <Image Source="PersianaR"
                        Margin="45, 20, 55, 65"
                        x:Name="PersianaVertical"/>

@@ -1,12 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppDecoracao.MenuC">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <ContentPage.Content>
+
+                <StackLayout BackgroundColor="#274FB5">
+               <TableView Intent="Menu">
+                   <TableSection>
+                        <ViewCell x:Name="PaginaProdutos"
+                                      Tapped="PaginaProdutos_Tapped">
+                            <Label Text="Produtos"
+                                   TextColor="White"
+                                       HorizontalTextAlignment="Center"/>
+                        </ViewCell>
+
+                            <ViewCell x:Name="PaginaLogin"
+                                      Tapped="PaginaLogin_Tapped">
+                                <Label Text="Login"
+                                       TextColor="White"
+                                       HorizontalOptions="Center"/>
+                        </ViewCell>
+
+                        <ViewCell x:Name="PaginaSobre"
+                                      Tapped="PaginaSobre_Tapped">
+                            <Label Text="Sobre"
+                                       TextColor="White"     
+                                       HorizontalOptions="Center"/>
+
+                        </ViewCell>
+                       
+                        <ViewCell x:Name="PaginaPensando"
+                                      Tapped="PaginaPensando_Tapped">
+                            <Label Text="Pensando..."
+                                   TextColor="White"
+                                       HorizontalOptions="Center"/>
+
+                        </ViewCell>
+
+                   </TableSection>
+
+               </TableView>
+
+            </StackLayout>
+
+        </ContentPage.Content>
+
+      </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

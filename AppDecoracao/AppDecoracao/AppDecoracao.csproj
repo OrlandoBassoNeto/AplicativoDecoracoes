@@ -14,6 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="CadastroUsuarios.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="MenuC.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

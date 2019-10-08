@@ -13,6 +13,8 @@ namespace AppDecoracao
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+
+
         }
     }
 }

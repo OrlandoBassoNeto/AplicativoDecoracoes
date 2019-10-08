@@ -29,7 +29,7 @@ namespace AppDecoracao
             }
             else if (entryUsuario.Text == "Orlando" || entrySenha.Text == "123")
             {
-                Navigation.PushAsync(new MainPage());
+                Navigation.PushAsync(new MenuC());
             }
 
             else
