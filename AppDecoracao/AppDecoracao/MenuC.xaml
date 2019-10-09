@@ -14,31 +14,42 @@
                                       Tapped="PaginaProdutos_Tapped">
                             <Label Text="Produtos"
                                    TextColor="White"
-                                       HorizontalTextAlignment="Center"/>
+                                       HorizontalTextAlignment="Center"
+                                   Margin="0,10"/>
                         </ViewCell>
 
                             <ViewCell x:Name="PaginaLogin"
                                       Tapped="PaginaLogin_Tapped">
                                 <Label Text="Login"
                                        TextColor="White"
-                                       HorizontalOptions="Center"/>
+                                       HorizontalOptions="Center"
+                                       Margin="0,10"/>
                         </ViewCell>
 
                         <ViewCell x:Name="PaginaSobre"
                                       Tapped="PaginaSobre_Tapped">
                             <Label Text="Sobre"
                                        TextColor="White"     
-                                       HorizontalOptions="Center"/>
+                                       HorizontalOptions="Center"
+                                       Margin="0,10"/>
 
                         </ViewCell>
                        
-                        <ViewCell x:Name="PaginaPensando"
-                                      Tapped="PaginaPensando_Tapped">
-                            <Label Text="Pensando..."
+                        <ViewCell x:Name="PaginaNotificacoes"
+                                      Tapped="PaginaNotificacoes_Tapped">
+                            <Label Text="Notificações"
                                    TextColor="White"
-                                       HorizontalOptions="Center"/>
+                                       HorizontalOptions="Center"
+                                   Margin="0,10"/>
 
-                        </ViewCell>
+                                <ViewCell x:Name="PaginaContato"
+                                      Tapped="PaginaNotificacoes_Tapped">
+                                    <Label Text="Notificações"
+                                   TextColor="White"
+                                       HorizontalOptions="Center"
+                                   Margin="0,10"/>
+
+                                </ViewCell>
 
                    </TableSection>
 

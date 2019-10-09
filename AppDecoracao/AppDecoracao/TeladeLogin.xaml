@@ -1,32 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppDecoracao.TeladeLogin">
-        
+             x:Class="AppDecoracao.TeladeLogin"
+             BackgroundImage="PlanoF">
+
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
-                <Label Text="Login"
-                   TextColor="#274FB5"
+        <StackLayout>
+            <Label Text="Login"
+                   TextColor="White"
                    HorizontalOptions="Center"
-                   Margin="0,40,0,0"
+                   Margin="0,150,0,0"
                    FontSize="30"/>
-            
-                <Entry x:Name="entryUsuario" 
-                   Placeholder="Nome do Usuário:"
-                   PlaceholderColor="#274FB5"
-                   TextColor="#274FB5"
+
+            <Entry x:Name="entryUsuario" 
+                   Placeholder="Nome do Usuário:"                      
+                   PlaceholderColor="White"
+                   TextColor="White"
                    HorizontalTextAlignment="Center"
-                   Margin="0,70,0,0"
-                   HorizontalOptions="FillAndExpand"/>
+                   Margin="0,50,0,20"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
 
             <Entry x:Name="entrySenha" 
                    Placeholder="Senha do Usuário:"
                     PlaceholderColor="#274FB5"
-                   TextColor="#274FB5"
+                   TextColor="White"
                    HorizontalTextAlignment="Center"
-                   Margin="0,30,0,0"
+                   Margin="0,10,0,0"
                    IsPassword="True"
-                   HorizontalOptions="FillAndExpand"/>
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
 
             <StackLayout Orientation="Horizontal">
                     
@@ -37,7 +40,7 @@
                     BorderRadius="8"
                     WidthRequest="78"
                     HorizontalOptions="FillAndExpand"
-                    Margin="25,25,25,0"
+                    Margin="25,40,25,0"
                     Clicked="ButtonLimpar_Clicked"/>
 
                 <Button x:Name="buttonLogar"
@@ -47,9 +50,9 @@
                     BorderRadius="8"
                     WidthRequest="78"    
                     HorizontalOptions="FillAndExpand"
-                    Margin="45,25,25,0"
-                    Clicked="ButtonLogar_Clicked"
-                        />
+                    Margin="45,40,25,0"
+                    Clicked="ButtonLogar_Clicked"/>
+
 
             </StackLayout>
 

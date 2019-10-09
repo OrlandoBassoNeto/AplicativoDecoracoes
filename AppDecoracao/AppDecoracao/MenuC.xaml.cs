@@ -37,5 +37,10 @@ namespace AppDecoracao
         {
 
         }
+
+        private void PaginaNotificacoes_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }

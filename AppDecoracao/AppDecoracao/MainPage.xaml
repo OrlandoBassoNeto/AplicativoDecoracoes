@@ -7,37 +7,44 @@
     <ScrollView>
         <StackLayout BackgroundColor="White">
 
-            <StackLayout BackgroundColor="#274FB5">
+            <StackLayout BackgroundColor="#274FB5"
+                         Scale="3">
+                
+
 
                 <Entry x:Name="entryPesquisar"
                    Placeholder="Pesquisar"
-                   HorizontalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
                    TextColor="Black"
-                   Margin="0, 0, 0, 0 "/>
+                       FontSize="20"
+                   Margin="0, 30, 0, 0 "/>
 
-                <Image Source="Logo"            
-                       WidthRequest="70"
-                       Margin="0, 0, 300, 0"
-                       HorizontalOptions="CenterAndExpand"/>
+
+                <ImageButton Source="Logo"
+                             x:Name="imgbuttonLogo"
+                             Clicked="ImgbuttonLogo_Clicked"
+                             WidthRequest="70"
+                             HorizontalOptions="StartAndExpand"
+                             Margin="14,0,0,1"/>
 
                 <Image Source="Usuario"
                        WidthRequest="28"
-                       Margin="0, 0, 0, 0  "/>
+                       Margin="300, -156, 0, 0  "/>
 
 
                 <Image Source="Lupinha"
                        WidthRequest="28" 
-                       Margin="0, 0, 0, 0"/>
+                       Margin="230, -45, 15, 5"/>
             </StackLayout>
 
             <!--ssss-->
             
                 <Image Source="PersianaR"
-                       Margin="45, 20, 55, 65"
+                       Margin="45, 0, 45, 75"
                        x:Name="PersianaVertical"/>
 
                 <Label x:Name="LabelPersianaVertical"
-                       Text="Persiana Roamana Cor: Bambu "
+                       Text="Persiana Roamana"
                        TextColor="White"
                        FontSize="Medium"
                        BackgroundColor="#274FB5"
@@ -49,7 +56,7 @@
                        x:Name="Forropvc"/>
 
                 <Label x:Name="LabelForrobranco"
-                       Text="Forro Pvc Branco de 25cm"
+                       Text="Forro Pvc Branco"
                        TextColor="White"
                        FontSize="Medium"
                        Margin="90, 97, 117, 0 "
