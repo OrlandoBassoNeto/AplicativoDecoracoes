@@ -8,33 +8,38 @@
         <StackLayout BackgroundColor="White">
 
             <StackLayout BackgroundColor="#274FB5"
-                          Margin="0,0,0,40"  >
+                          Margin="0,0,0,40">
 
-                <Entry x:Name="entryPesquisar"
+                <!--<Entry x:Name="entryPesquisar"
                    Placeholder="Pesquisar"
-                   HorizontalOptions="CenterAndExpand"
-                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"-->
+                       
+                       
+                   <!--TextColor="Black"
                        FontSize="20"                     
-                   Margin="0, 0, 0, 0  "/>
+                   Margin="0, 0, 0, 0  "/>-->
 
 
                 <ImageButton Source="Logo"
                              x:Name="imgbuttonLogo"
                              Clicked="ImgbuttonLogo_Clicked"
-                             WidthRequest="70"                           
+                             WidthRequest="70" 
+                             BackgroundColor="Transparent"
                              Margin="5,0,300,0"/>
 
-                <!--<Image Source="Usuario"
+                <!--<ImageButton x:Name="imgbuttonUsuario"
+                    Source="Usuario"
                        WidthRequest="28"
-                       Margin="0, 0, 0, 0  "/>
+                       Clicked="ImgbuttonUsuario_Clicked"                      
+                       Margin="0, 0, 0, 0  "/>-->
 
 
-                <Image Source="Lupinha"
+                <!--<Image Source="Lupinha"
                        WidthRequest="28" 
                        Margin="0, 0, 15, 5"/>-->
             </StackLayout>
 
-            <!--ssss-->
+           
             
                 <Image Source="PersianaR"
                        Margin="45, 0, 45, 75"

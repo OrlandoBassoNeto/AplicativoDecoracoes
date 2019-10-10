@@ -17,7 +17,12 @@ namespace AppDecoracao
 
         private void ImgbuttonLogo_Clicked(object sender, EventArgs e)
         {
-
+            NavigationPage Detail = new NavigationPage(new CadastroUsuarios());
         }
+
+        //private void ImgbuttonUsuario_Clicked(object sender, EventArgs e)
+        //{
+        //  NavigationPage  Detail = new NavigationPage(new CadastroUsuarios());
+        //}
     }
 }

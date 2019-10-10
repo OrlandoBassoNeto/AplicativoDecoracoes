@@ -38,9 +38,9 @@
 
                             </ViewCell>
 
-                            <ViewCell x:Name="PaginaNotificacoes"
-                                      Tapped="PaginaNotificacoes_Tapped">
-                                <Label Text="Notificações"
+                            <ViewCell x:Name="PaginaCadastraUsuarios"
+                                      Tapped="PaginaCadastraUsuarios_Tapped">
+                                <Label Text="Cadastrar Usuarios"
                                    TextColor="White"
                                        HorizontalOptions="Center"
                                    Margin="0,10"/>

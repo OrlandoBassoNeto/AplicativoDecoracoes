@@ -27,7 +27,7 @@ namespace AppDecoracao
 
         private void PaginaProdutos_Tapped(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new CadastroUsuarios());
+            
         }
 
         private void PaginaSobre_Tapped(object sender, EventArgs e)
@@ -37,15 +37,20 @@ namespace AppDecoracao
 
         private void PaginaNotificacoes_Tapped(object sender, EventArgs e)
         {
-
+            Detail = new NavigationPage(new CadastroUsuarios());
         }
 
         private void PaginaDisconectar_Tapped(object sender, EventArgs e)
         {
-
+            Detail = new NavigationPage(new TeladeLogin());
         }
 
         private void PaginaOrcamento_Tapped(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new TeladeOrcamento());
+        }
+
+        private void PaginaCadastraUsuarios_Tapped(object sender, EventArgs e)
         {
 
         }
