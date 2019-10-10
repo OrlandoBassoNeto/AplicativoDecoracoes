@@ -13,8 +13,6 @@ namespace AppDecoracao
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-
-
         }
 
         private void ImgbuttonLogo_Clicked(object sender, EventArgs e)

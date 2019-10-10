@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppDecoracao.CadastroUsuarios"
-             BackgroundImage="PlanoF">
+             BackgroundImage="C">
 
 
     <ContentPage.Content>
@@ -57,14 +57,15 @@
             
             <Entry x:Name="entrySenha" 
                    PlaceholderColor="#274FB5"
-                   TextColor="#274FB5"
+                   TextColor="White"
                    HorizontalTextAlignment="Center"
                    HorizontalOptions="Fill"
                    FontSize="Small"
                    Margin="10,0,10,0"
                    BackgroundColor="Transparent"/>
 
-            <Label x:Name="labelConfirmarSenha"
+            <Label x:Name="labelConfirmarSenha" 
+                   
                    TextColor="White"
                    Text="Confirmar Senha"
                    FontSize="18"
@@ -81,6 +82,8 @@
 
             <Button x:Name="buttonConfirmar"
                     Text="Confirmar"
+                    TextColor="White"
+                    Clicked="ButtonConfirmar_Clicked"
                     HorizontalOptions="FillAndExpand"
                     Margin="10, 25, 15, 1"
                     FontSize="Large"
@@ -88,6 +91,7 @@
 
             <Button x:Name="buttonApagar"
                     Text="Apagar"
+                    TextColor="White"
                     HorizontalOptions="FillAndExpand"
                     FontSize="Large"
                     Margin="10, 12, 15, 3"

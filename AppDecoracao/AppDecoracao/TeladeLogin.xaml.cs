@@ -18,25 +18,34 @@ namespace AppDecoracao
             NavigationPage.SetHasNavigationBar(this, false);
 		}
 
-        private void ButtonLogar_Clicked(object sender, EventArgs e)
+        private async void ButtonLogar_Clicked(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(entryUsuario.Text) ||
-            string.IsNullOrEmpty(entrySenha.Text))
+            if (!string.IsNullOrEmpty(entryUsuario.Text) ||
+                !string.IsNullOrEmpty(entrySenha.Text))
             {
-                DisplayAlert("ERRO!", "°Não deixe os campos em brancos.", "OK");
 
+                ModelUsuario Usu = new ModelUsuario();
+                bool ResultadoLogin = Usu.usuario(entryUsuario.Text, entrySenha.Text);
+
+                try
+                {
+                  if(ResultadoLogin == true)
+                    {
+                        await Navigation.PushAsync(new MenuC());
+
+                    }
+                  else
+                    {
+                        await DisplayAlert("Erro", "Não foi possivel Conectar\n Erro no Login ou Senha.", "OK");
+                    }
+                }
+                catch (Exception EX)
+                {
+                    throw new Exception(EX.Message);
+                }
 
             }
-            else if (entryUsuario.Text == "Orlando" || entrySenha.Text == "123")
-            {
-                Navigation.PushAsync(new MenuC());
-            }
-
-            else
-            {
-                DisplayAlert("ERRO!", "°Senha ou Nome Incorretos", "OK");
-
-            }
+            
 
         }
 

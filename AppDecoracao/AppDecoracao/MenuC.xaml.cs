@@ -21,17 +21,18 @@ namespace AppDecoracao
 
         private void PaginaLogin_Tapped(object sender, EventArgs e)
         {
-
+            Detail = new NavigationPage(new CadastroUsuarios());
+            IsPresented = false;
         }
 
         private void PaginaProdutos_Tapped(object sender, EventArgs e)
         {
-
+            Detail = new NavigationPage(new CadastroUsuarios());
         }
 
         private void PaginaSobre_Tapped(object sender, EventArgs e)
         {
-
+            Detail = new NavigationPage(new TelaSobre());
         }
 
         private void PaginaNotificacoes_Tapped(object sender, EventArgs e)

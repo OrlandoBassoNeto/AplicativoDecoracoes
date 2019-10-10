@@ -16,5 +16,20 @@ namespace AppDecoracao
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ButtonEntrarOrcamento_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonEnviarOrcamento_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonApagarOrcamento_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

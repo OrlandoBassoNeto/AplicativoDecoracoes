@@ -14,6 +14,76 @@
               HorizontalTextAlignment="Center"
               Margin="25"/>
 
+            <Entry x:Name="entryNomeOrcamento" 
+                   Placeholder="Nome:"                      
+                   PlaceholderColor="GhostWhite"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   Margin="0,30,0,20"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
+
+            <Entry x:Name="entryEnderecoOrcamento" 
+                   Placeholder="Endereço:"                      
+                   PlaceholderColor="GhostWhite"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   Margin="0,0,0,0"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
+            
+            <Entry x:Name="entryBairroOrcamento" 
+                   Placeholder="Bairro:"                      
+                   PlaceholderColor="GhostWhite"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
+
+            <Entry x:Name="entryComplementoOrcamento" 
+                   Placeholder="Complemento:"                      
+                   PlaceholderColor="GhostWhite"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
+            
+            <Entry x:Name="entryTelefoneOrcamento" 
+                   Placeholder="Telefone:"                      
+                   PlaceholderColor="GhostWhite"
+                   TextColor="White"
+                   HorizontalTextAlignment="Start"
+                   Margin="0,20,0,20"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"/>
+
+            <StackLayout Orientation="Horizontal">
+                
+            <Button x:Name="buttonApagarOrcamento"
+                    Text="Apagar"
+                    BackgroundColor="#274FB5"
+                    TextColor="White"    
+                    BorderRadius="7"
+                    WidthRequest="78"    
+                    HorizontalOptions="FillAndExpand"
+                    Margin="20,3,25,0"
+                    Clicked="ButtonApagarOrcamento_Clicked"/>
+
+                <Button x:Name="buttonEnviarOrcamento"
+                    Text="Enviar"
+                    BackgroundColor="#274FB5"
+                    TextColor="White"    
+                    BorderRadius="7"
+                    WidthRequest="78"    
+                    HorizontalOptions="FillAndExpand"
+                    Margin="20,3,25,0"
+                    Clicked="ButtonEnviarOrcamento_Clicked"/>
+
+            </StackLayout>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
