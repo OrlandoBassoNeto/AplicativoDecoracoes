@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppDecoracao.CadastroUsuarios"
-             BackgroundImage="C">
+             BackgroundImage="PlanoF">
 
 
     <ContentPage.Content>
@@ -11,6 +11,7 @@
                    Text="Tela de Cadastro de Usuários"
                    TextColor="White"
                   FontSize="20"
+                   BackgroundColor="Transparent"
                    HorizontalTextAlignment="Center"
                    Margin="25"/>
 
@@ -28,7 +29,7 @@
                    HorizontalTextAlignment="Center"
                    FontSize="Small"
                    Margin="10,0,10,0"
-                   BackgroundColor="#274FB5"
+                   BackgroundColor="Transparent"
                    HorizontalOptions="Fill"/>
 
             <Label x:Name="labelNomeUsuario"
@@ -45,7 +46,7 @@
                    HorizontalOptions="Fill"
                    FontSize="Small"
                    Margin="10,0,10,0"
-                   BackgroundColor="#274FB5"/>
+                   BackgroundColor="Transparent"/>
 
             <Label x:Name="labelSenha"
                    TextColor="White"
@@ -61,7 +62,7 @@
                    HorizontalOptions="Fill"
                    FontSize="Small"
                    Margin="10,0,10,0"
-                   BackgroundColor="#274FB5"/>
+                   BackgroundColor="Transparent"/>
 
             <Label x:Name="labelConfirmarSenha"
                    TextColor="White"

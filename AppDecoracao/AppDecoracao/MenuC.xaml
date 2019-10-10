@@ -9,49 +9,52 @@
 
                 <StackLayout BackgroundColor="#274FB5">
                <TableView Intent="Menu">
-                   <TableSection>
-                        <ViewCell x:Name="PaginaProdutos"
+
+                        <TableSection>
+
+                            <ViewCell x:Name="PaginaProdutos"
                                       Tapped="PaginaProdutos_Tapped">
-                            <Label Text="Produtos"
+                                <Label Text="Produtos"
                                    TextColor="White"
                                        HorizontalTextAlignment="Center"
                                    Margin="0,10"/>
-                        </ViewCell>
+                            </ViewCell>
 
-                            <ViewCell x:Name="PaginaLogin"
-                                      Tapped="PaginaLogin_Tapped">
-                                <Label Text="Login"
+
+                            <ViewCell x:Name="PaginaDisconectar"
+                                      Tapped="PaginaDisconectar_Tapped">
+                                <Label Text="Sair do Usuário"
                                        TextColor="White"
                                        HorizontalOptions="Center"
                                        Margin="0,10"/>
-                        </ViewCell>
+                            </ViewCell>
 
-                        <ViewCell x:Name="PaginaSobre"
+                            <ViewCell x:Name="PaginaSobre"
                                       Tapped="PaginaSobre_Tapped">
-                            <Label Text="Sobre"
+                                <Label Text="Sobre"
                                        TextColor="White"     
                                        HorizontalOptions="Center"
                                        Margin="0,10"/>
 
-                        </ViewCell>
-                       
-                        <ViewCell x:Name="PaginaNotificacoes"
+                            </ViewCell>
+
+                            <ViewCell x:Name="PaginaNotificacoes"
                                       Tapped="PaginaNotificacoes_Tapped">
-                            <Label Text="Notificações"
+                                <Label Text="Notificações"
                                    TextColor="White"
                                        HorizontalOptions="Center"
                                    Margin="0,10"/>
+                            </ViewCell>
 
-                                <ViewCell x:Name="PaginaContato"
-                                      Tapped="PaginaNotificacoes_Tapped">
-                                    <Label Text="Notificações"
+
+                            <ViewCell x:Name="PaginaOrcamento"
+                                      Tapped="PaginaOrcamento_Tapped">
+                                <Label Text="Orçamento"
                                    TextColor="White"
                                        HorizontalOptions="Center"
                                    Margin="0,10"/>
-
-                                </ViewCell>
-
-                   </TableSection>
+                            </ViewCell>
+                        </TableSection>
 
                </TableView>
 

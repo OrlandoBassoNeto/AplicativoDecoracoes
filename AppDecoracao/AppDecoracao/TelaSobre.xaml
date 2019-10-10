@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDecoracao.TelaSobre"
+             BackgroundImage="C">
+    
+    <ContentPage.Content>
+        
+        <StackLayout>
+
+            <Label Text="Sobre"
+              TextColor="White"
+              FontSize="25"
+              HorizontalTextAlignment="Center"
+              Margin="25"/>
+
+            <Label Text="Esse Aplicativo foi Desenvolvido pelo Aluno Orlando do Tecnico em informática Turma 27 e Ainda está em Desenvolvimento..."
+                   FontSize="19"
+                   Margin="3"/>
+
+            <Label Text="O aplicativo Mostra Os produtos Novidades támbem falicitar Contato de Clientes para Fazer Orçamentos Da Empresa 'Basso Decorações'."
+                   FontSize="19"
+                   Margin="3,15"/>
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

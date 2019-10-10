@@ -15,12 +15,8 @@ namespace AppDecoracao
 		public MenuC ()
 		{
 			InitializeComponent ();
+            NavigationPage.SetHasNavigationBar(this, false);
             Detail = new NavigationPage(new MainPage());
-        }
-
-        private void PaginaPensando_Tapped(object sender, EventArgs e)
-        {
-
         }
 
         private void PaginaLogin_Tapped(object sender, EventArgs e)
@@ -39,6 +35,16 @@ namespace AppDecoracao
         }
 
         private void PaginaNotificacoes_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PaginaDisconectar_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PaginaOrcamento_Tapped(object sender, EventArgs e)
         {
 
         }
